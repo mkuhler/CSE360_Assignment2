@@ -35,6 +35,7 @@ public class AddingMachine {
 	}
 
 	public void clear() {
+		total = 0;
 		record = "0";	// clear the existing record by setting it to 0
 	}
 }
